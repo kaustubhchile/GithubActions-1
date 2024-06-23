@@ -170,3 +170,18 @@
   ```
 
   ### To create a workflow
+
+  First go to the repository then click on `Add File`-->`Create New File`
+
+![Screenshot 2024-06-23 234703](https://github.com/kaustubhchile/Music-app-player/assets/72078555/c3be0e76-b2e5-43c6-9bb6-93fc62ca5c8e)
+
+Then we have to be very specific with the naming here. The proper directory structure for your workflow file is
+`.github/workflows` and then name the file whatever you want.
+
+![Screenshot 2024-06-24 015937](https://github.com/kaustubhchile/Music-app-player/assets/72078555/bfe7fb47-fc3c-4c58-b2ca-8209a0dedac5)
+
+And then we can copy and paste the above code here
+
+![Screenshot 2024-06-24 020240](https://github.com/kaustubhchile/Music-app-player/assets/72078555/39708234-1af2-4235-b0f2-2da1708d855e)
+
+and then commit your changes.
