@@ -1,6 +1,6 @@
 # Github Actions
 
-- Its a built-in `CI/CD` Tool for Github. CI/CD basically allows us to automate the testing of our code to make sure it meets certain criteria. After all the tests are passed one can enable actions to automate the delivery of the code. This can significantly reduce the time it takes for you to deliver updates to your applications which allows developers to focus more of their time on the code itself.
+- Its a built-in `CI/CD` Tool for GitHub. CI/CD basically allows us to automate the testing of our code to make sure it meets certain criteria. After all the tests are passed one can enable actions to automate the delivery of the code. This can significantly reduce the time it takes for you to deliver updates to your applications which allows developers to focus more of their time on the code itself.
 
   ![Screenshot 2024-06-23 151944](https://github.com/kaustubhchile/Music-app-player/assets/72078555/cbabb6b1-a518-4580-a411-5085d66dfe15)
 
@@ -38,7 +38,7 @@
 
   - Runners:
 
-    - In the `runs-on` parameter we specify the runner. It is basically a container environment that will run the code. By default github runs the container for you but one can host their own runner. The default containers to choose from are ubuntu linux, microsoft windows and mac-os.
+    - In the `runs-on` parameter we specify the runner. It is basically a container environment that will run the code. By default GitHub runs the container for you but one can host their own runner. The default containers to choose from are ubuntu linux, microsoft windows and mac-os.
 
   - Steps:
 
@@ -47,7 +47,7 @@
   - Actions:
     - First it will do `Checkout Code` job and then it is going to run the`Run Super-Linter` job against it.
 
-  So to put it all together on the event that someone pushes new code, its going to run the job `super-lint`. That job will run on a ubuntu container hosted on github.com and then it will go through 2 steps. The first step is to check out the code and the next step is to run the linter.
+  So to put it all together on the event that someone pushes new code, its going to run the job `super-lint`. That job will run on a ubuntu container hosted on GitHub.com and then it will go through 2 steps. The first step is to check out the code and the next step is to run the linter.
 
   ```bash
     Linter is something that one uses to make sure that the code is conforming to certain standards.
@@ -141,7 +141,7 @@ Here we have the history of all our workflow jobs.
 
 ![Screenshot 2024-06-24 134743](https://github.com/devopsjourney1/mygitactions/assets/72078555/8a98a62e-9069-4d72-a903-b03d9da5a2f0)
 
-One can have multiple workflows in a single github repository.
+One can have multiple workflows in a single GitHub repository.
 
 If one wants to go through a guided setup instead of writing file from scratch, we can go to `New Workflow` right here
 
