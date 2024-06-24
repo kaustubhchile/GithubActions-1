@@ -180,8 +180,14 @@ Then we have to be very specific with the naming here. The proper directory stru
 
 ![Screenshot 2024-06-24 015937](https://github.com/kaustubhchile/Music-app-player/assets/72078555/bfe7fb47-fc3c-4c58-b2ca-8209a0dedac5)
 
-And then we can copy and paste the above code here
+And then we can copy and paste the above code here(for yaml file)
 
 ![Screenshot 2024-06-24 020240](https://github.com/kaustubhchile/Music-app-player/assets/72078555/39708234-1af2-4235-b0f2-2da1708d855e)
 
 and then commit your changes.
+
+In the below figure, the yellow dot indicates that the workflow is currently running and checking the code.
+
+![Screenshot 2024-06-24 095832](https://github.com/kaustubhchile/git_practice_test/assets/72078555/83254c28-cdd1-4962-913e-c3a9b84d3877)
+
+If all the checks pass then it will turn to green
