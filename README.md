@@ -1,4 +1,4 @@
-## Github Actions
+# Github Actions
 
 - Its a built-in `CI/CD` Tool for Github. CI/CD basically allows us to automate the testing of our code to make sure it meets certain criteria. After all the tests are passed one can enable actions to automate the delivery of the code. This can significantly reduce the time it takes for you to deliver updates to your applications which allows developers to focus more of their time on the code itself.
 
@@ -54,7 +54,7 @@
     Super-Linter is made up of multiple linters
   ```
 
-## To create a workflow
+#### To create a workflow
 
 First go to the repository then click on `Add File`-->`Create New File`
 
