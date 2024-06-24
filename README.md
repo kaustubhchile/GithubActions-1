@@ -49,12 +49,12 @@
 
   So to put it all together on the event that someone pushes new code, its going to run the job `super-lint`. That job will run on a ubuntu container hosted on github.com and then it will go through 2 steps. The first step is to check out the code and the next step is to run the linter.
 
-  ```
+  ```bash
     Linter is something that one uses to make sure that the code is conforming to certain standards.
     Super-Linter is made up of multiple linters
   ```
 
-#### To create a workflow
+## To create a workflow
 
 First go to the repository then click on `Add File`-->`Create New File`
 
@@ -95,7 +95,7 @@ Now we will generate some code that will generate some linting error.
 
 So we create a new file(like we created workflow file) and paste the following code:
 
-```
+```python
 define hello():
   print("hello")
 
