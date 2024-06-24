@@ -188,6 +188,10 @@ and then commit your changes.
 
 In the below figure, the yellow dot indicates that the workflow is currently running and checking the code.
 
-![Screenshot 2024-06-24 095832](https://github.com/kaustubhchile/git_practice_test/assets/72078555/83254c28-cdd1-4962-913e-c3a9b84d3877)
+![Screenshot 2024-06-24 104022](https://github.com/kaustubhchile/git_practice_test/assets/72078555/7e000943-fe86-4b22-b567-4f08f029b2fd)
 
-If all the checks pass then it will turn to green
+If all the checks pass then it will turn to green and if the checks fail then it will turn red.
+
+Then click on the `actions`(or click on the `yellow dot`)
+
+![Screenshot 2024-06-24 104336](https://github.com/kaustubhchile/git_practice_test/assets/72078555/ca927275-34be-497d-859e-5c9667bee118)
