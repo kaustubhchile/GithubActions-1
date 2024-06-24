@@ -1,4 +1,4 @@
-# Github Actions
+# GitHub Actions
 
 - Its a built-in `CI/CD` Tool for GitHub. CI/CD basically allows us to automate the testing of our code to make sure it meets certain criteria. After all the tests are passed one can enable actions to automate the delivery of the code. This can significantly reduce the time it takes for you to deliver updates to your applications which allows developers to focus more of their time on the code itself.
 
