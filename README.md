@@ -12,24 +12,24 @@
 
   ![Screenshot 2024-06-23 201339](https://github.com/kaustubhchile/Music-app-player/assets/72078555/cd61ca96-5684-44e6-9328-9bc938c90ff4)
 
-  ```
-    name: Super-Linter
+  ```yml
+  name: Super-Linter
 
-    on: push
+  on: push
 
-    jobs:
-      super-lint:
-        name: Lint code base
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@v2
+  jobs:
+    super-lint:
+      name: Lint code base
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v2
 
-          - name: Run Super-Linter
-            uses: github/super-linter@v4
-            env:
-              DEFAULT_BRANCH: main
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        - name: Run Super-Linter
+          uses: github/super-linter@v4
+          env:
+            DEFAULT_BRANCH: main
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   ```
 
   - Jobs:
